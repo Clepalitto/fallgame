@@ -11,6 +11,14 @@ function getRandomInt(max) {
 
 var points = 0;
 
+var title = Crafty.e('DOM, 2D, Color, Text')
+                .attr({x: 600, y: 10, w: 100, h: 25})
+                .color('rgb(255, 255, 255)')
+                .text("Fallgame")
+                .textFont({
+                    size: '22px'
+                })
+
 var pdl = Crafty.e('Paddle, 2D, DOM, Color, Multiway, Collision').attr({x: 325, y: 650, w: 100, h:50}).color('#9FE36B').multiway(200, { RIGHT_ARROW: 0, LEFT_ARROW: 180 })
     .bind('UpdateFrame', function () {
         //hit left or right side
