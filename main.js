@@ -36,7 +36,7 @@ function fall() {
             this.y += speed;
             if (this.y > 700) {
                 this.destroy();
-                speed = speed*1.01;
+                speed = speed*1.05;
                 points = points+1;
                 Crafty.e('Points, DOM, 2D, Color, Text')
                     .attr({x: 0, y: 10, w: 100, h: 20, points: 0})
