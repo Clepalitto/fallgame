@@ -1,6 +1,6 @@
 // Made with Crafty
 
-// alert("In order to play this game with the best user experience, you might want to crop your window to the game's size (700x700). But don't worry ! This bug will be fixed soon !")
+alert("In order to play this game with the best user experience, you might want to crop your window to the game's size (700x700). But don't worry ! This bug will be fixed soon !")
 
 Crafty.init(700, 700, document.getElementById("game"));
 
@@ -8,7 +8,6 @@ Crafty.init(700, 700, document.getElementById("game"));
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
-
 
 var points = 0;
 
@@ -65,8 +64,6 @@ function fall() {
                 pdl.destroy();
             }
         });
-
-    
 }
 
 fall()
