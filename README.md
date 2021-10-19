@@ -7,6 +7,10 @@ You don't need any setup to play this game !
 
 Just open the file `index.html`, and **play** !
 
+## How to *play* this game ?
+
+In this game, you are a little green cube who needs to avoid Purple cubes in order to survive ...
+
 ## What was used in this game ?
 
 In order to create this game, I used [Crafty](http://craftyjs.com/), an open JS game engine.
