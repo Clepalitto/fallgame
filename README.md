@@ -1,7 +1,7 @@
 # Fallgame
 An easy 2D Javascript falling blocks game
 
-## How to setup environnement for **Falgame** ?
+## How to setup environnement for **Fallgame** ?
 
 You don't need any setup to play this game ! 
 
