@@ -1,7 +1,5 @@
 // Made with Crafty
 
-alert("In order to play this game with the best user experience, you might want to crop your window to the game's size (700x700). But don't worry ! This bug will be fixed soon !")
-
 Crafty.init(700, 700, document.getElementById("game"));
 
 // Random for falling sprites (MDN)
@@ -19,7 +17,7 @@ var title = Crafty.e('DOM, 2D, Color, Text')
                     size: '22px'
                 })
 
-var pdl = Crafty.e('Paddle, 2D, DOM, Color, Multiway, Collision').attr({x: 325, y: 650, w: 100, h:50}).color('#9FE36B').multiway(200, { RIGHT_ARROW: 0, LEFT_ARROW: 180 })
+var pdl = Crafty.e('Paddle, 2D, DOM, Color, Multiway, Collision').attr({x: 325, y: 650, w: 100, h:50}).color('#9FE36B').multiway(400, { RIGHT_ARROW: 0, LEFT_ARROW: 180 })
     .bind('UpdateFrame', function () {
         //hit left or right side
         // if (this.x <= 0 || this.y >=700) {
