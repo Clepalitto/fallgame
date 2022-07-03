@@ -17,7 +17,7 @@ var title = Crafty.e('DOM, 2D, Color, Text')
                     size: '22px'
                 })
 
-var pdl = Crafty.e('Paddle, 2D, DOM, Color, Multiway, Collision').attr({x: 325, y: 650, w: 100, h:50}).color('#9FE36B').multiway(400, { RIGHT_ARROW: 0, LEFT_ARROW: 180 })
+var pdl = Crafty.e('Paddle, 2D, DOM, Color, Multiway, Collision').attr({x: 325, y: 650, w: 100, h:50}).color('#9FE36B').multiway(500, { RIGHT_ARROW: 0, LEFT_ARROW: 180 })
     .bind('UpdateFrame', function () {
         //hit left or right side
         // if (this.x <= 0 || this.y >=700) {
